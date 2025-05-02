@@ -1,0 +1,4 @@
+CREATE TABLE AUTHOR (
+    AuthorID INT PRIMARY KEY,
+    Name VARCHAR(100)
+);

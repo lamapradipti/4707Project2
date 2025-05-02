@@ -1,0 +1,5 @@
+CREATE TABLE PUBLISHER (
+    PublisherID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Address VARCHAR(255)
+);

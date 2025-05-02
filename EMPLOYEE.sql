@@ -1,0 +1,5 @@
+CREATE TABLE EMPLOYEE (
+    EmployeeID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Role VARCHAR(50)
+);
