@@ -1,0 +1,6 @@
+CREATE TABLE INVENTORY (
+    InventoryID INT PRIMARY KEY,
+    RestockThreshold INT NOT NULL,
+    BookID INT NOT NULL,
+    FOREIGN KEY (BookID) REFERENCES BOOK(BookID)
+);

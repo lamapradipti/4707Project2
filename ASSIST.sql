@@ -1,0 +1,7 @@
+CREATE TABLE ASSIST (
+    ACustomerID INT NOT NULL,
+    AEmployeeID INT NOT NULL,
+    PRIMARY KEY (ACustomerID, AEmployeeID),
+    FOREIGN KEY (ACustomerID) REFERENCES CUSTOMER(CustomerID),
+    FOREIGN KEY (AEmployeeID) REFERENCES EMPLOYEE(EmployeeID)
+);
